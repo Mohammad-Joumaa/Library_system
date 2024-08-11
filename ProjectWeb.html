@@ -1,0 +1,92 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="ProjectWeb.css">
+<script src="Date.js"></script>
+
+</head>
+
+<body>
+<form action="ProjectWeb.php" method="post">
+<table border="0">
+<caption>
+<p> Registration </p>
+</caption>
+<tr>
+<th colspan="2">
+<div id="clock" style="color:red"></div>
+</th>
+</tr>
+<tr> 
+<th>Doctor: </th>
+<td>  <input type="text" name="t1" size="25"/>  </td>
+</tr>
+
+<th>Doctor_Id: </th>
+<td>  <input type="text" name="id" size="25"/>  </td>
+</tr>
+
+<tr>
+<th>Patient: </th>
+<td> <input type="text" name="t2" size="25"/> </td>
+</tr>
+
+<th>Patient_SSN: </th>
+<td>  <input type="text" name="ssn" size="25"/>  </td>
+</tr>
+
+<tr>
+<th>P_Phone: </th>
+<td> <input type="text" name="t3" size="25"/> </td>
+</tr>
+
+<tr>
+<th>P_Address: </th>
+<td> <input type="text" name="t4" size="25"/> </td>
+</tr>
+
+<tr>
+<th>D_specialization: </th>
+<td> <input type="text" name="t5" size="25"/> </td>
+</tr>
+
+<tr>
+<th>Blood Group: </th>
+<td> 
+<lable><input type="radio" name="b" value="A" />A</lable> 
+<lable><input type="radio" name="b" value="B" />B</lable>
+<lable><input type="radio" name="b" value="AB" />AB</lable>
+<lable><input type="radio" name="b" value="O" />O</lable>
+</td>
+</tr>
+
+<tr>
+<th>Rhesus</th>
+<td>
+<lable><input type="radio" name="s" value="+" />+</lable>
+<lable><input type="radio" name="s" value="-" />-</lable>
+</td>
+</tr>
+
+<tr>
+<th>P_Status</th>
+<td> 
+<select name="cs" size="1">
+<option>Critical</option>
+<option>Fair</option>
+<option>Stable</option>
+</select> 
+</td>
+</tr>
+
+<tr>
+<td> <input type="submit" value="Submit Form" /> </td>
+<td> <input type="reset" value="Reset Form" /> </td>
+</tr>
+
+</table>
+
+</form>
+</body>
+
+</html>

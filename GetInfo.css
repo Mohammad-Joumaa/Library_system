@@ -1,0 +1,70 @@
+input[type=text]:hover
+{
+	background:yellow;
+	color:red;
+}
+input[type=text]:focus
+{
+	background:red;
+	color:black;
+}
+table.a1{
+	
+	margin:50px auto 50px auto;	
+}
+caption{
+	color:red;
+	font-family:'Elephant';
+	font-size: 24pt;
+	font-style: italic;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+th.a1{
+	color:red;
+	text-align:center;
+}
+
+td.a2{
+	color:black;
+	text-align:center;
+
+}
+th.b1{
+	color:black;
+	text-align:center;
+}
+
+td.b2{
+	color:red;
+	text-align:center;
+
+}
+
+table.a2{
+	
+	margin:50px auto 50px auto;	
+}
+
+table.in{
+	
+	margin:270px auto 50px auto;	
+}
+
+body{
+	background-image: url(getp.png);
+}
+th{
+	color:white;
+}
+
+p{
+	color:yellow;
+	font-family:'Elephant';
+	font-size: 24pt;
+	font-style: italic;
+	font-weight:bold;
+	text-decoration:line-through;
+	text-align:center;
+}

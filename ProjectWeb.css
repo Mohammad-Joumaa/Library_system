@@ -1,0 +1,30 @@
+input[type=text]:hover
+{
+	background:black;
+	color:red;
+}
+input[type=text]:focus
+{
+	background:lightblue;
+	color:darkgreen;
+	
+}
+p{
+	color:blue;
+    font-family:'Elephant';
+	font-size: 24pt;
+	font-style: italic;
+	font-weight:bold;
+	text-decoration:underline;
+	
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+body{
+	background-image: url(pweb.png);
+}

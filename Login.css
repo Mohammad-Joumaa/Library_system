@@ -1,0 +1,33 @@
+input[type=text]:hover
+{
+	background:green;
+	color:red;
+}
+input[type=text]:focus
+{
+	background:blue;
+	color:gray;
+	
+}
+input[type=password]:hover
+{
+	background:green;
+	color:red;
+}
+input[type=password]:focus
+{
+	background:blue;
+	color:gray;
+	
+}
+table{
+	
+	margin:270px auto 50px auto;	
+}
+
+body{
+	background-image: url(log.png);
+}
+th{
+	color:white;
+}
